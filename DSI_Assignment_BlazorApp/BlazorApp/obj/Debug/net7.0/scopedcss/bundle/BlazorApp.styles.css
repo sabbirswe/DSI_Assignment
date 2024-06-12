@@ -1,0 +1,21 @@
+@import '_content/Blazored.Toast/Blazored.Toast.bundle.scp.css';
+
+/* /Pages/Orders/Orders.razor.rz.scp.css */
+.input-group[b-ruv1d3coon] {
+    position: relative;
+}
+
+.input-group-text[b-ruv1d3coon] {
+    background: transparent;
+    border: none;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.input-group input[b-ruv1d3coon] {
+    padding-right: 30px; /* Adjust based on the icon width */
+}

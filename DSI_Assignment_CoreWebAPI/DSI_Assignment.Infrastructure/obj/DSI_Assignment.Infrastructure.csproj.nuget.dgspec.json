@@ -1,0 +1,234 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\R&D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Infrastructure\\DSI_Assignment.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "D:\\R&D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Application\\DSI_Assignment.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\R&D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Application\\DSI_Assignment.Application.csproj",
+        "projectName": "DSI_Assignment.Application",
+        "projectPath": "D:\\R&D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Application\\DSI_Assignment.Application.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "D:\\R&D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\R&D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Domain\\DSI_Assignment.Domain.csproj": {
+                "projectPath": "D:\\R&D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Domain\\DSI_Assignment.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\R&D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Domain\\DSI_Assignment.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\R&D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Domain\\DSI_Assignment.Domain.csproj",
+        "projectName": "DSI_Assignment.Domain",
+        "projectPath": "D:\\R&D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Domain\\DSI_Assignment.Domain.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "D:\\R&D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\R&D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Infrastructure\\DSI_Assignment.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\R&D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Infrastructure\\DSI_Assignment.Infrastructure.csproj",
+        "projectName": "DSI_Assignment.Infrastructure",
+        "projectPath": "D:\\R&D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Infrastructure\\DSI_Assignment.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "D:\\R&D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\R&D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Application\\DSI_Assignment.Application.csproj": {
+                "projectPath": "D:\\R&D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Application\\DSI_Assignment.Application.csproj"
+              },
+              "D:\\R&D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Domain\\DSI_Assignment.Domain.csproj": {
+                "projectPath": "D:\\R&D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Domain\\DSI_Assignment.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

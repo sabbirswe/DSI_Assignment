@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\R\u0026D\\DSI_Assignment_BlazorApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98BA227D-6F94-49E2-BD27-D1E9C2662194}|BlazorApp\\BlazorApp.csproj|d:\\r\u0026d\\dsi_assignment_blazorapp\\blazorapp\\pages\\orderinfo\\orderinfo.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98BA227D-6F94-49E2-BD27-D1E9C2662194}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\pages\\orderinfo\\orderinfo.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98BA227D-6F94-49E2-BD27-D1E9C2662194}|BlazorApp\\BlazorApp.csproj|d:\\r\u0026d\\dsi_assignment_blazorapp\\blazorapp\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98BA227D-6F94-49E2-BD27-D1E9C2662194}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98BA227D-6F94-49E2-BD27-D1E9C2662194}|BlazorApp\\BlazorApp.csproj|d:\\r\u0026d\\dsi_assignment_blazorapp\\blazorapp\\pages\\orderinfo\\orderinfo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98BA227D-6F94-49E2-BD27-D1E9C2662194}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\pages\\orderinfo\\orderinfo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98BA227D-6F94-49E2-BD27-D1E9C2662194}|BlazorApp\\BlazorApp.csproj|d:\\r\u0026d\\dsi_assignment_blazorapp\\blazorapp\\iservice\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98BA227D-6F94-49E2-BD27-D1E9C2662194}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\iservice\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98BA227D-6F94-49E2-BD27-D1E9C2662194}|BlazorApp\\BlazorApp.csproj|d:\\r\u0026d\\dsi_assignment_blazorapp\\blazorapp\\pages\\orders\\orders.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98BA227D-6F94-49E2-BD27-D1E9C2662194}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\pages\\orders\\orders.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98BA227D-6F94-49E2-BD27-D1E9C2662194}|BlazorApp\\BlazorApp.csproj|d:\\r\u0026d\\dsi_assignment_blazorapp\\blazorapp\\pages\\orders\\orders.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98BA227D-6F94-49E2-BD27-D1E9C2662194}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\pages\\orders\\orders.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98BA227D-6F94-49E2-BD27-D1E9C2662194}|BlazorApp\\BlazorApp.csproj|d:\\r\u0026d\\dsi_assignment_blazorapp\\blazorapp\\model\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98BA227D-6F94-49E2-BD27-D1E9C2662194}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\model\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98BA227D-6F94-49E2-BD27-D1E9C2662194}|BlazorApp\\BlazorApp.csproj|d:\\r\u0026d\\dsi_assignment_blazorapp\\blazorapp\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98BA227D-6F94-49E2-BD27-D1E9C2662194}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98BA227D-6F94-49E2-BD27-D1E9C2662194}|BlazorApp\\BlazorApp.csproj|d:\\r\u0026d\\dsi_assignment_blazorapp\\blazorapp\\model\\pagedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98BA227D-6F94-49E2-BD27-D1E9C2662194}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\model\\pagedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "D:\\R\u0026D\\DSI_Assignment_BlazorApp\\BlazorApp\\Service\\OrderService.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\Service\\OrderService.cs",
+              "ToolTip": "D:\\R\u0026D\\DSI_Assignment_BlazorApp\\BlazorApp\\Service\\OrderService.cs",
+              "RelativeToolTip": "BlazorApp\\Service\\OrderService.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA3wCAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T17:46:16.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "D:\\R\u0026D\\DSI_Assignment_BlazorApp\\BlazorApp\\IService\\IOrderService.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\IService\\IOrderService.cs",
+              "ToolTip": "D:\\R\u0026D\\DSI_Assignment_BlazorApp\\BlazorApp\\IService\\IOrderService.cs",
+              "RelativeToolTip": "BlazorApp\\IService\\IOrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T17:46:00.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "D:\\R\u0026D\\DSI_Assignment_BlazorApp\\BlazorApp\\Model\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\Model\\OrderDetail.cs",
+              "ToolTip": "D:\\R\u0026D\\DSI_Assignment_BlazorApp\\BlazorApp\\Model\\OrderDetail.cs",
+              "RelativeToolTip": "BlazorApp\\Model\\OrderDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T17:22:05.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderInfo.razor",
+              "DocumentMoniker": "D:\\R\u0026D\\DSI_Assignment_BlazorApp\\BlazorApp\\Pages\\OrderInfo\\OrderInfo.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Pages\\OrderInfo\\OrderInfo.razor",
+              "ToolTip": "D:\\R\u0026D\\DSI_Assignment_BlazorApp\\BlazorApp\\Pages\\OrderInfo\\OrderInfo.razor",
+              "RelativeToolTip": "BlazorApp\\Pages\\OrderInfo\\OrderInfo.razor",
+              "ViewState": "AQIAALEAAAAAAAAAAAAAAMQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T17:20:08.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Orders.razor.cs",
+              "DocumentMoniker": "D:\\R\u0026D\\DSI_Assignment_BlazorApp\\BlazorApp\\Pages\\Orders\\Orders.razor.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\Pages\\Orders\\Orders.razor.cs",
+              "ToolTip": "D:\\R\u0026D\\DSI_Assignment_BlazorApp\\BlazorApp\\Pages\\Orders\\Orders.razor.cs",
+              "RelativeToolTip": "BlazorApp\\Pages\\Orders\\Orders.razor.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwGYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T17:09:13.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\R\u0026D\\DSI_Assignment_BlazorApp\\BlazorApp\\MainLayout.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\MainLayout.razor",
+              "ToolTip": "D:\\R\u0026D\\DSI_Assignment_BlazorApp\\BlazorApp\\MainLayout.razor",
+              "RelativeToolTip": "BlazorApp\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T13:44:15.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderInfo.razor.cs",
+              "DocumentMoniker": "D:\\R\u0026D\\DSI_Assignment_BlazorApp\\BlazorApp\\Pages\\OrderInfo\\OrderInfo.razor.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\Pages\\OrderInfo\\OrderInfo.razor.cs",
+              "ToolTip": "D:\\R\u0026D\\DSI_Assignment_BlazorApp\\BlazorApp\\Pages\\OrderInfo\\OrderInfo.razor.cs",
+              "RelativeToolTip": "BlazorApp\\Pages\\OrderInfo\\OrderInfo.razor.cs",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAuwIIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T13:13:09.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Orders.razor",
+              "DocumentMoniker": "D:\\R\u0026D\\DSI_Assignment_BlazorApp\\BlazorApp\\Pages\\Orders\\Orders.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Pages\\Orders\\Orders.razor",
+              "ToolTip": "D:\\R\u0026D\\DSI_Assignment_BlazorApp\\BlazorApp\\Pages\\Orders\\Orders.razor",
+              "RelativeToolTip": "BlazorApp\\Pages\\Orders\\Orders.razor",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T13:07:45.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PagedResponse.cs",
+              "DocumentMoniker": "D:\\R\u0026D\\DSI_Assignment_BlazorApp\\BlazorApp\\Model\\PagedResponse.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\Model\\PagedResponse.cs",
+              "ToolTip": "D:\\R\u0026D\\DSI_Assignment_BlazorApp\\BlazorApp\\Model\\PagedResponse.cs",
+              "RelativeToolTip": "BlazorApp\\Model\\PagedResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T13:04:16.637Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

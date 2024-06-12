@@ -1,0 +1,180 @@
+2024-06-12 19:07:29.349 +06:00 [ERR] An error occurred while updating the order with ID 11
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_OrderDetails_Order". The conflict occurred in database "DSI_Assignment_DB", table "dbo.Order", column 'OrderId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at DSI_Assignment.Infrastructure.Repository.OrderDetailRepository.AddAsync(OrderDetail orderDetail) in D:\R&D\DSI_Assignment_CoreWebAPI\DSI_Assignment.Infrastructure\Repository\OrderDetailsRepository.cs:line 56
+   at DSI_Assignment.Application.Service.OrderService.UpdateAsync(Int32 id, OrderDto order) in D:\R&D\DSI_Assignment_CoreWebAPI\DSI_Assignment.Application\Service\OrderService.cs:line 97
+ClientConnectionId:7eb8a99b-4aa4-4074-866d-baadc7cd24ce
+Error Number:547,State:0,Class:16
+2024-06-12 19:10:24.233 +06:00 [ERR] An error occurred while updating the order with ID 14
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_OrderDetails_Order". The conflict occurred in database "DSI_Assignment_DB", table "dbo.Order", column 'OrderId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at DSI_Assignment.Infrastructure.Repository.OrderDetailRepository.AddAsync(OrderDetail orderDetail) in D:\R&D\DSI_Assignment_CoreWebAPI\DSI_Assignment.Infrastructure\Repository\OrderDetailsRepository.cs:line 56
+   at DSI_Assignment.Application.Service.OrderService.UpdateAsync(Int32 id, OrderDto order) in D:\R&D\DSI_Assignment_CoreWebAPI\DSI_Assignment.Application\Service\OrderService.cs:line 97
+ClientConnectionId:7eb8a99b-4aa4-4074-866d-baadc7cd24ce
+Error Number:547,State:0,Class:16
+2024-06-12 19:12:00.568 +06:00 [ERR] An error occurred while updating the order with ID 15
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_OrderDetails_Order". The conflict occurred in database "DSI_Assignment_DB", table "dbo.Order", column 'OrderId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at DSI_Assignment.Infrastructure.Repository.OrderDetailRepository.AddAsync(OrderDetail orderDetail) in D:\R&D\DSI_Assignment_CoreWebAPI\DSI_Assignment.Infrastructure\Repository\OrderDetailsRepository.cs:line 56
+   at DSI_Assignment.Application.Service.OrderService.UpdateAsync(Int32 id, OrderDto order) in D:\R&D\DSI_Assignment_CoreWebAPI\DSI_Assignment.Application\Service\OrderService.cs:line 97
+ClientConnectionId:7eb8a99b-4aa4-4074-866d-baadc7cd24ce
+Error Number:547,State:0,Class:16
+2024-06-12 19:13:33.109 +06:00 [ERR] An error occurred while updating the order with ID 11
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_OrderDetails_Order". The conflict occurred in database "DSI_Assignment_DB", table "dbo.Order", column 'OrderId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at DSI_Assignment.Infrastructure.Repository.OrderDetailRepository.AddAsync(OrderDetail orderDetail) in D:\R&D\DSI_Assignment_CoreWebAPI\DSI_Assignment.Infrastructure\Repository\OrderDetailsRepository.cs:line 56
+   at DSI_Assignment.Application.Service.OrderService.UpdateAsync(Int32 id, OrderDto order) in D:\R&D\DSI_Assignment_CoreWebAPI\DSI_Assignment.Application\Service\OrderService.cs:line 97
+ClientConnectionId:7eb8a99b-4aa4-4074-866d-baadc7cd24ce
+Error Number:547,State:0,Class:16
+2024-06-12 19:19:06.570 +06:00 [ERR] An error occurred while updating the order with ID 11
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_OrderDetails_Order". The conflict occurred in database "DSI_Assignment_DB", table "dbo.Order", column 'OrderId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 670
+   at DSI_Assignment.Infrastructure.Repository.OrderDetailRepository.AddAsync(OrderDetail orderDetail) in D:\R&D\DSI_Assignment_CoreWebAPI\DSI_Assignment.Infrastructure\Repository\OrderDetailsRepository.cs:line 56
+   at DSI_Assignment.Application.Service.OrderService.UpdateAsync(Int32 id, OrderDto order) in D:\R&D\DSI_Assignment_CoreWebAPI\DSI_Assignment.Application\Service\OrderService.cs:line 97
+ClientConnectionId:7eb8a99b-4aa4-4074-866d-baadc7cd24ce
+Error Number:547,State:0,Class:16
+2024-06-12 19:19:47.915 +06:00 [ERR] An error occurred while updating the order with ID 11
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_OrderDetails_Order". The conflict occurred in database "DSI_Assignment_DB", table "dbo.Order", column 'OrderId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 670
+   at DSI_Assignment.Infrastructure.Repository.OrderDetailRepository.AddAsync(OrderDetail orderDetail) in D:\R&D\DSI_Assignment_CoreWebAPI\DSI_Assignment.Infrastructure\Repository\OrderDetailsRepository.cs:line 56
+   at DSI_Assignment.Application.Service.OrderService.UpdateAsync(Int32 id, OrderDto order) in D:\R&D\DSI_Assignment_CoreWebAPI\DSI_Assignment.Application\Service\OrderService.cs:line 97
+ClientConnectionId:7eb8a99b-4aa4-4074-866d-baadc7cd24ce
+Error Number:547,State:0,Class:16
+2024-06-12 19:22:16.923 +06:00 [ERR] An error occurred while updating the order with ID 11
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_OrderDetails_Order". The conflict occurred in database "DSI_Assignment_DB", table "dbo.Order", column 'OrderId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 670
+   at DSI_Assignment.Infrastructure.Repository.OrderDetailRepository.AddAsync(OrderDetail orderDetail) in D:\R&D\DSI_Assignment_CoreWebAPI\DSI_Assignment.Infrastructure\Repository\OrderDetailsRepository.cs:line 56
+   at DSI_Assignment.Application.Service.OrderService.UpdateAsync(Int32 id, OrderDto order) in D:\R&D\DSI_Assignment_CoreWebAPI\DSI_Assignment.Application\Service\OrderService.cs:line 97
+ClientConnectionId:7eb8a99b-4aa4-4074-866d-baadc7cd24ce
+Error Number:547,State:0,Class:16
+2024-06-12 19:23:27.435 +06:00 [ERR] An error occurred while updating the order with ID 11
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_OrderDetails_Order". The conflict occurred in database "DSI_Assignment_DB", table "dbo.Order", column 'OrderId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 670
+   at DSI_Assignment.Infrastructure.Repository.OrderDetailRepository.AddAsync(OrderDetail orderDetail) in D:\R&D\DSI_Assignment_CoreWebAPI\DSI_Assignment.Infrastructure\Repository\OrderDetailsRepository.cs:line 56
+   at DSI_Assignment.Application.Service.OrderService.UpdateAsync(Int32 id, OrderDto order) in D:\R&D\DSI_Assignment_CoreWebAPI\DSI_Assignment.Application\Service\OrderService.cs:line 97
+ClientConnectionId:7eb8a99b-4aa4-4074-866d-baadc7cd24ce
+Error Number:547,State:0,Class:16
+2024-06-12 19:24:18.229 +06:00 [ERR] An error occurred while updating the order with ID 11
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_OrderDetails_Order". The conflict occurred in database "DSI_Assignment_DB", table "dbo.Order", column 'OrderId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 670
+   at DSI_Assignment.Infrastructure.Repository.OrderDetailRepository.AddAsync(OrderDetail orderDetail) in D:\R&D\DSI_Assignment_CoreWebAPI\DSI_Assignment.Infrastructure\Repository\OrderDetailsRepository.cs:line 56
+   at DSI_Assignment.Application.Service.OrderService.UpdateAsync(Int32 id, OrderDto order) in D:\R&D\DSI_Assignment_CoreWebAPI\DSI_Assignment.Application\Service\OrderService.cs:line 97
+ClientConnectionId:7eb8a99b-4aa4-4074-866d-baadc7cd24ce
+Error Number:547,State:0,Class:16
+2024-06-12 19:25:36.298 +06:00 [ERR] An error occurred while updating the order with ID 11
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_OrderDetails_Order". The conflict occurred in database "DSI_Assignment_DB", table "dbo.Order", column 'OrderId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 670
+   at DSI_Assignment.Infrastructure.Repository.OrderDetailRepository.AddAsync(OrderDetail orderDetail) in D:\R&D\DSI_Assignment_CoreWebAPI\DSI_Assignment.Infrastructure\Repository\OrderDetailsRepository.cs:line 56
+   at DSI_Assignment.Application.Service.OrderService.UpdateAsync(Int32 id, OrderDto order) in D:\R&D\DSI_Assignment_CoreWebAPI\DSI_Assignment.Application\Service\OrderService.cs:line 97
+ClientConnectionId:7eb8a99b-4aa4-4074-866d-baadc7cd24ce
+Error Number:547,State:0,Class:16

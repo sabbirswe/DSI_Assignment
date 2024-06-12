@@ -1,0 +1,203 @@
+﻿@page "/orders/create"
+@page "/orders/edit/{Id:int}"
+@using Blazored.Typeahead
+@using Microsoft.AspNetCore.Components.Forms
+@inject IOrderService _orderService
+@inject NavigationManager _navigation
+@inject ISupplierService _supplierService
+@inject IItemService _itemService
+@inject IToastService _toastService
+@inject IJSRuntime _jsRuntime
+
+<EditForm Model="order" OnValidSubmit="SaveOrder">
+    <DataAnnotationsValidator />
+    <div class="container">
+        <br />
+        <h3 class="text-center" style="padding:10px;background-color:#BDBDBD">PURCHASE ORDER ENTRY FORM</h3>
+        <br />
+        @if (!isloaded)
+        {
+            <div class="col-sm-3 offset-5">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+        }
+        else
+        {
+            <Animate Animation="Animations.SlideLeft" Duration="TimeSpan.FromSeconds(1)" Delay="TimeSpan.FromSeconds(0)">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="form-group row">
+                            <label for="refId" class="col-sm-3 col-form-label fw-bolder">REF. ID:</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" disabled id="refId" @bind="order.RefID" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 offset-2">
+                        <div class="form-group row">
+                            <label for="poNumber" class="col-sm-3 col-form-label fw-bolder">PO. NO:</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="poNumber" @bind="order.PoNo" />
+                                <ValidationMessage class="text-danger" For="@(() => order.PoNo)" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="form-group row">
+                            <label for="poDate" class="col-sm-3 col-form-label fw-bolder">PO. DATE:</label>
+                            <div class="col-sm-9">
+                                <input type="date" class="form-control" id="poDate" @bind="order.PoDate" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 offset-2">
+                        <div class="form-group row">
+                            <label for="supplier" class="col-sm-3 col-form-label fw-bolder">SUPPLIER:</label>
+                            <div class="col-sm-9">
+                                <select class="form-control" id="supplier" @bind="order.SupplierId">
+                                    <option>Select Supplier</option>
+                                    @foreach (var supplier in suppliers)
+                                    {
+                                        <option value="@supplier.SupplierId">@supplier.SupplierName</option>
+                                    }
+                                </select>
+                                <ValidationMessage class="text-danger" For="@(() => order.SupplierId)" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="form-group row">
+                            <label for="expectedDate" class="col-sm-3 col-form-label fw-bolder">EXPECTED DATE:</label>
+                            <div class="col-sm-9">
+                                <input type="date" class="form-control" id="expectedDate" @bind="order.ExpectedDate" />
+                                <ValidationMessage class="text-danger" For="@(() => order.ExpectedDate)" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 offset-2">
+                        <div class="form-group row">
+                            <label for="remarks" class="col-sm-3 col-form-label fw-bolder">REMARKS:</label>
+                            <div class="col-sm-9">
+                                <textarea class="form-control" id="remarks" @bind="order.Remarks"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </Animate>
+
+            <hr />
+            <br />
+            <Animate Animation="Animations.SlideRight" Duration="TimeSpan.FromSeconds(1.5)" Delay="TimeSpan.FromSeconds(0)">
+                <div class="row">
+                    <div class="col-sm-4 offset-1">
+                        <div class="form-group row">
+                            <label for="expectedDate" class="col-sm-3 col-form-label fw-bolder">ITEM:</label>
+                            <div class="col-sm-9">
+                                <BlazoredTypeahead SearchMethod="SearchItems"
+                                                   @bind-Value="selecteditem" ShowDropDownOnFocus="true" placeholder="Search Item">
+                                    <SelectedTemplate Context="selectedItemContext">
+                                        @selectedItemContext.ItemName
+                                    </SelectedTemplate>
+                                    <ResultTemplate Context="resultItemContext">
+                                        @resultItemContext.ItemName
+                                    </ResultTemplate>
+                                    <NotFoundTemplate Context="notFountContext">
+                                        No items found!
+                                    </NotFoundTemplate>
+                                </BlazoredTypeahead>
+                                @if (invalidItem)
+                                {
+                                    <p class="text-danger">ITEM is required.</p>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="form-group row">
+                            <label for="qty" class="col-sm-3 col-form-label fw-bolder">QTY.:</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="qty" @bind="orderDetail.Qty" />
+                                @if (invalidQty)
+                                {
+                                    <p class="text-danger">QTY is required.</p>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="form-group row">
+                            <label for="rate" class="col-sm-3 col-form-label fw-bolder">RATE:</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" placeholder="$" id="rate" @bind="orderDetail.Rate" />
+                                @if (invalidRate)
+                                {
+                                    <p class="text-danger">RATE is required.</p>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1">
+                        <button type="button" class="btn btn-success" @onclick="AddItem"><i class="fas @(orderDetail.OrderDetailId == 0?"fa-plus":"fa-edit")"></i></button>
+                    </div>
+                </div>
+            
+           
+            <br />
+                <div class="table-resposive">
+                    <table class="table table-hover table-light text-center">
+                        <thead>
+                            <tr>
+                                <th>ITEM NAME</th>
+                                <th>QTY.</th>
+                                <th>RATE ($)</th>
+                                <th>EDIT</th>
+                                <th>DELETE</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in order.OrderDetails)
+                            {
+                                <tr class="@(selectedOrderDetailId==item.OrderDetailId?"table-dark":"")">
+                                    <td>@item.ItemName</td>
+                                    <td>@item.Qty</td>
+                                    <td>@item.Rate</td>
+                                    <td>
+                                        <button type="button" class="btn btn-link" @onclick="() => EditItem(item)">
+                                            <i class="fas fa-edit"></i>
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btn-link" @onclick="() => RemoveItem(item)">
+                                            <i class="fas fa-trash-alt"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                    @if (order.OrderDetails.Count == 0)
+                    {
+                        <p style="text-align:center">No items added yet.</p>
+                    }
+                </div>
+                <div class="d-flex justify-content-end">
+                    <button type="submit" class="btn btn-success" style="margin:5px">SAVE</button>
+                    <button type="button" class="btn btn-danger" style="margin:5px" @onclick="Close">CLOSE</button>
+                </div>
+            </Animate>
+
+        }
+    </div>
+</EditForm>
+
+
+
+

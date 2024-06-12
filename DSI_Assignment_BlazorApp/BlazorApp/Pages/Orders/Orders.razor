@@ -1,0 +1,120 @@
+﻿@page "/"
+@page "/orders"
+@inject IOrderService _orderService
+@inject NavigationManager _navigation
+@inject IToastService _toastService
+@inject IJSRuntime _jsRuntime
+<div class="container"> 
+    <br />
+    <h2 class="text-center" style="padding:10px;background-color:#BDBDBD">ORDER LIST</h2>
+    <br />
+    @if (!isloaded)
+    {
+        <div class="col-sm-3 offset-5">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+    }
+    else
+    {
+         <Animate Animation="Animations.ZoomInDown" Duration="TimeSpan.FromSeconds(0.5)" Delay="TimeSpan.FromSeconds(0.5)">
+            <div class="row">
+                <div class="col-sm-5">
+                    <button class="btn btn-info" @onclick="CreateOrder">Create</button>
+                </div>
+                <div class="col-sm-5 offset-2">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" @bind="searchTerm" @oninput="SearchOrders" />
+                        <div class="input-group-append">
+                            <span class="input-group-text">
+                                <i class="fa fa-search"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </Animate>
+            <br />
+         <Animate Animation="Animations.ZoomInUp" Duration="TimeSpan.FromSeconds(1)" Delay="TimeSpan.FromSeconds(0)">
+            <div class="table-responsive">
+                <table class="table table-hover table-bordered text-center">
+                    <thead>
+                        <tr>
+                            <th>REF. ID</th>
+                            <th>PO NO</th>
+                            <th>PO DATE</th>
+                            <th>SUPPLIER</th>
+                            <th>EX. DATE</th>
+                            <th>EDIT</th>
+                            <th>DELETE</th>
+                            <th>EXPORT</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (orders != null)
+                        {
+                            @foreach (var order in orders)
+                            {
+                                <tr>
+                                    <td>@order.RefID</td>
+                                    <td>@order.PoNo</td>
+                                    <td>@order.PoDate.ToShortDateString()</td>
+                                    <td>@order.SupplierName</td>
+                                    <td>@order.ExpectedDate?.ToShortDateString()</td>
+                                    <td>
+                                        <button type="button" class="btn btn-link" @onclick="() => EditOrder(order.OrderId)">
+                                            <i class="fas fa-edit"></i>
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btn-link" @onclick="() => DeleteOrder(order.OrderId,order.PoNo)">
+                                            <i class="fas fa-trash-alt"></i>
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <a class="btn btn-link" href="https://localhost:7202/api/Order/generate-order-report/@order.OrderId" target="_blank">
+                                            <i class="fas fa-file-export"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+            @if(orders.Count > 0)
+            {
+                <div class="d-flex justify-content-center my-3">
+                    <button class="btn btn-link" @onclick="PreviousPage" disabled="@(!CanNavigateToPreviousPage)">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    @for (int i = 1; i <= totalPages; i++)
+                    {
+                        int j = i;
+                        <button style="margin:2px;" class="btn @(i == pageNumber ? "btn-secondary" : "btn-primary") btn-sm" @onclick="() => NavigateToPage(j)" disabled="@(i==pageNumber)">
+                            @i
+                        </button>
+                    }
+                    <button class="btn btn-link" @onclick="NextPage" disabled="@(!CanNavigateToNextPage)">
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            }
+            else
+            {
+              <p style="text-align:center">No data available.</p>
+            }
+
+         </Animate>
+
+       
+    }
+
+</div>
+
+
+
+
+

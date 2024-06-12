@@ -1,0 +1,43 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = BlazorApp
+build_property.RootNamespace = BlazorApp
+build_property.ProjectDir = D:\DSI_Assignment\DSI_Assignment_BlazorApp\BlazorApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\DSI_Assignment\DSI_Assignment_BlazorApp\BlazorApp
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/DSI_Assignment/DSI_Assignment_BlazorApp/BlazorApp/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DSI_Assignment/DSI_Assignment_BlazorApp/BlazorApp/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DSI_Assignment/DSI_Assignment_BlazorApp/BlazorApp/Pages/OrderInfo/OrderInfo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJJbmZvXE9yZGVySW5mby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DSI_Assignment/DSI_Assignment_BlazorApp/BlazorApp/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DSI_Assignment/DSI_Assignment_BlazorApp/BlazorApp/Pages/Orders/Orders.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJzXE9yZGVycy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-ruv1d3coon

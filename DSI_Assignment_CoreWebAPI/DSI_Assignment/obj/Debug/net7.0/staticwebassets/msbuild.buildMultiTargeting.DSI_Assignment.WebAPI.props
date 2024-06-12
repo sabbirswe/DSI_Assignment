@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DSI_Assignment.WebAPI.props" />
+</Project>

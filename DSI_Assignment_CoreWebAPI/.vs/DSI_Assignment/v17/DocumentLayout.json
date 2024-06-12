@@ -1,0 +1,374 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72F53622-1305-4471-B675-59CA4FE90FAC}|DSI_Assignment\\DSI_Assignment.csproj|d:\\r\u0026d\\dsi_assignment_corewebapi\\dsi_assignment\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F53622-1305-4471-B675-59CA4FE90FAC}|DSI_Assignment\\DSI_Assignment.csproj|solutionrelative:dsi_assignment\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79B5E782-9E32-427D-BABE-671F422F7CB9}|DSI_Assignment.Application\\DSI_Assignment.Application.csproj|d:\\r\u0026d\\dsi_assignment_corewebapi\\dsi_assignment.application\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79B5E782-9E32-427D-BABE-671F422F7CB9}|DSI_Assignment.Application\\DSI_Assignment.Application.csproj|solutionrelative:dsi_assignment.application\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA98C5-6B84-4F4A-BF0B-8317E6B6DE72}|DSI_Assignment.Domain\\DSI_Assignment.Domain.csproj|d:\\r\u0026d\\dsi_assignment_corewebapi\\dsi_assignment.domain\\irepository\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96EA98C5-6B84-4F4A-BF0B-8317E6B6DE72}|DSI_Assignment.Domain\\DSI_Assignment.Domain.csproj|solutionrelative:dsi_assignment.domain\\irepository\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0912A9B4-5444-414C-B814-09EF634333E5}|DSI_Assignment.Infrastructure\\DSI_Assignment.Infrastructure.csproj|d:\\r\u0026d\\dsi_assignment_corewebapi\\dsi_assignment.infrastructure\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0912A9B4-5444-414C-B814-09EF634333E5}|DSI_Assignment.Infrastructure\\DSI_Assignment.Infrastructure.csproj|solutionrelative:dsi_assignment.infrastructure\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0912A9B4-5444-414C-B814-09EF634333E5}|DSI_Assignment.Infrastructure\\DSI_Assignment.Infrastructure.csproj|d:\\r\u0026d\\dsi_assignment_corewebapi\\dsi_assignment.infrastructure\\repository\\orderdetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0912A9B4-5444-414C-B814-09EF634333E5}|DSI_Assignment.Infrastructure\\DSI_Assignment.Infrastructure.csproj|solutionrelative:dsi_assignment.infrastructure\\repository\\orderdetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA98C5-6B84-4F4A-BF0B-8317E6B6DE72}|DSI_Assignment.Domain\\DSI_Assignment.Domain.csproj|d:\\r\u0026d\\dsi_assignment_corewebapi\\dsi_assignment.domain\\irepository\\iorderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96EA98C5-6B84-4F4A-BF0B-8317E6B6DE72}|DSI_Assignment.Domain\\DSI_Assignment.Domain.csproj|solutionrelative:dsi_assignment.domain\\irepository\\iorderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79B5E782-9E32-427D-BABE-671F422F7CB9}|DSI_Assignment.Application\\DSI_Assignment.Application.csproj|d:\\r\u0026d\\dsi_assignment_corewebapi\\dsi_assignment.application\\iservice\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79B5E782-9E32-427D-BABE-671F422F7CB9}|DSI_Assignment.Application\\DSI_Assignment.Application.csproj|solutionrelative:dsi_assignment.application\\iservice\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79B5E782-9E32-427D-BABE-671F422F7CB9}|DSI_Assignment.Application\\DSI_Assignment.Application.csproj|d:\\r\u0026d\\dsi_assignment_corewebapi\\dsi_assignment.application\\service\\supplierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79B5E782-9E32-427D-BABE-671F422F7CB9}|DSI_Assignment.Application\\DSI_Assignment.Application.csproj|solutionrelative:dsi_assignment.application\\service\\supplierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79B5E782-9E32-427D-BABE-671F422F7CB9}|DSI_Assignment.Application\\DSI_Assignment.Application.csproj|d:\\r\u0026d\\dsi_assignment_corewebapi\\dsi_assignment.application\\service\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79B5E782-9E32-427D-BABE-671F422F7CB9}|DSI_Assignment.Application\\DSI_Assignment.Application.csproj|solutionrelative:dsi_assignment.application\\service\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79B5E782-9E32-427D-BABE-671F422F7CB9}|DSI_Assignment.Application\\DSI_Assignment.Application.csproj|d:\\r\u0026d\\dsi_assignment_corewebapi\\dsi_assignment.application\\service\\orderdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79B5E782-9E32-427D-BABE-671F422F7CB9}|DSI_Assignment.Application\\DSI_Assignment.Application.csproj|solutionrelative:dsi_assignment.application\\service\\orderdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79B5E782-9E32-427D-BABE-671F422F7CB9}|DSI_Assignment.Application\\DSI_Assignment.Application.csproj|d:\\r\u0026d\\dsi_assignment_corewebapi\\dsi_assignment.application\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79B5E782-9E32-427D-BABE-671F422F7CB9}|DSI_Assignment.Application\\DSI_Assignment.Application.csproj|solutionrelative:dsi_assignment.application\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA98C5-6B84-4F4A-BF0B-8317E6B6DE72}|DSI_Assignment.Domain\\DSI_Assignment.Domain.csproj|d:\\r\u0026d\\dsi_assignment_corewebapi\\dsi_assignment.domain\\entities\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96EA98C5-6B84-4F4A-BF0B-8317E6B6DE72}|DSI_Assignment.Domain\\DSI_Assignment.Domain.csproj|solutionrelative:dsi_assignment.domain\\entities\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA98C5-6B84-4F4A-BF0B-8317E6B6DE72}|DSI_Assignment.Domain\\DSI_Assignment.Domain.csproj|d:\\r\u0026d\\dsi_assignment_corewebapi\\dsi_assignment.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96EA98C5-6B84-4F4A-BF0B-8317E6B6DE72}|DSI_Assignment.Domain\\DSI_Assignment.Domain.csproj|solutionrelative:dsi_assignment.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79B5E782-9E32-427D-BABE-671F422F7CB9}|DSI_Assignment.Application\\DSI_Assignment.Application.csproj|d:\\r\u0026d\\dsi_assignment_corewebapi\\dsi_assignment.application\\pagedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79B5E782-9E32-427D-BABE-671F422F7CB9}|DSI_Assignment.Application\\DSI_Assignment.Application.csproj|solutionrelative:dsi_assignment.application\\pagedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79B5E782-9E32-427D-BABE-671F422F7CB9}|DSI_Assignment.Application\\DSI_Assignment.Application.csproj|d:\\r\u0026d\\dsi_assignment_corewebapi\\dsi_assignment.application\\dto\\orderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79B5E782-9E32-427D-BABE-671F422F7CB9}|DSI_Assignment.Application\\DSI_Assignment.Application.csproj|solutionrelative:dsi_assignment.application\\dto\\orderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79B5E782-9E32-427D-BABE-671F422F7CB9}|DSI_Assignment.Application\\DSI_Assignment.Application.csproj|d:\\r\u0026d\\dsi_assignment_corewebapi\\dsi_assignment.application\\dto\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79B5E782-9E32-427D-BABE-671F422F7CB9}|DSI_Assignment.Application\\DSI_Assignment.Application.csproj|solutionrelative:dsi_assignment.application\\dto\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA98C5-6B84-4F4A-BF0B-8317E6B6DE72}|DSI_Assignment.Domain\\DSI_Assignment.Domain.csproj|d:\\r\u0026d\\dsi_assignment_corewebapi\\dsi_assignment.domain\\entities\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96EA98C5-6B84-4F4A-BF0B-8317E6B6DE72}|DSI_Assignment.Domain\\DSI_Assignment.Domain.csproj|solutionrelative:dsi_assignment.domain\\entities\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0912A9B4-5444-414C-B814-09EF634333E5}|DSI_Assignment.Infrastructure\\DSI_Assignment.Infrastructure.csproj|d:\\r\u0026d\\dsi_assignment_corewebapi\\dsi_assignment.infrastructure\\repository\\supplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0912A9B4-5444-414C-B814-09EF634333E5}|DSI_Assignment.Infrastructure\\DSI_Assignment.Infrastructure.csproj|solutionrelative:dsi_assignment.infrastructure\\repository\\supplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0912A9B4-5444-414C-B814-09EF634333E5}|DSI_Assignment.Infrastructure\\DSI_Assignment.Infrastructure.csproj|d:\\r\u0026d\\dsi_assignment_corewebapi\\dsi_assignment.infrastructure\\repository\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0912A9B4-5444-414C-B814-09EF634333E5}|DSI_Assignment.Infrastructure\\DSI_Assignment.Infrastructure.csproj|solutionrelative:dsi_assignment.infrastructure\\repository\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F53622-1305-4471-B675-59CA4FE90FAC}|DSI_Assignment\\DSI_Assignment.csproj|d:\\r\u0026d\\dsi_assignment_corewebapi\\dsi_assignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F53622-1305-4471-B675-59CA4FE90FAC}|DSI_Assignment\\DSI_Assignment.csproj|solutionrelative:dsi_assignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79B5E782-9E32-427D-BABE-671F422F7CB9}|DSI_Assignment.Application\\DSI_Assignment.Application.csproj|d:\\r\u0026d\\dsi_assignment_corewebapi\\dsi_assignment.application\\iservice\\isupplierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79B5E782-9E32-427D-BABE-671F422F7CB9}|DSI_Assignment.Application\\DSI_Assignment.Application.csproj|solutionrelative:dsi_assignment.application\\iservice\\isupplierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\.nuget\\packages\\select.htmltopdf.netcore\\24.1.0\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderDetailsRepository.cs",
+              "DocumentMoniker": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Infrastructure\\Repository\\OrderDetailsRepository.cs",
+              "RelativeDocumentMoniker": "DSI_Assignment.Infrastructure\\Repository\\OrderDetailsRepository.cs",
+              "ToolTip": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Infrastructure\\Repository\\OrderDetailsRepository.cs",
+              "RelativeToolTip": "DSI_Assignment.Infrastructure\\Repository\\OrderDetailsRepository.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAowDcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:43:24.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Application\\Service\\OrderService.cs",
+              "RelativeDocumentMoniker": "DSI_Assignment.Application\\Service\\OrderService.cs",
+              "ToolTip": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Application\\Service\\OrderService.cs",
+              "RelativeToolTip": "DSI_Assignment.Application\\Service\\OrderService.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAtwGQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T04:15:29.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "DSI_Assignment\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "DSI_Assignment\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAiwB8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T04:37:26.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SupplierService.cs",
+              "DocumentMoniker": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Application\\Service\\SupplierService.cs",
+              "RelativeDocumentMoniker": "DSI_Assignment.Application\\Service\\SupplierService.cs",
+              "ToolTip": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Application\\Service\\SupplierService.cs",
+              "RelativeToolTip": "DSI_Assignment.Application\\Service\\SupplierService.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T03:22:02.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Domain\\Entities\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "DSI_Assignment.Domain\\Entities\\OrderDetail.cs",
+              "ToolTip": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Domain\\Entities\\OrderDetail.cs",
+              "RelativeToolTip": "DSI_Assignment.Domain\\Entities\\OrderDetail.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:56:18.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IOrderDetailRepository.cs",
+              "DocumentMoniker": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Domain\\IRepository\\IOrderDetailRepository.cs",
+              "RelativeDocumentMoniker": "DSI_Assignment.Domain\\IRepository\\IOrderDetailRepository.cs",
+              "ToolTip": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Domain\\IRepository\\IOrderDetailRepository.cs",
+              "RelativeToolTip": "DSI_Assignment.Domain\\IRepository\\IOrderDetailRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:48:23.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Application\\IService\\IOrderService.cs",
+              "RelativeDocumentMoniker": "DSI_Assignment.Application\\IService\\IOrderService.cs",
+              "ToolTip": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Application\\IService\\IOrderService.cs",
+              "RelativeToolTip": "DSI_Assignment.Application\\IService\\IOrderService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T12:27:30.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Domain\\IRepository\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "DSI_Assignment.Domain\\IRepository\\IOrderRepository.cs",
+              "ToolTip": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Domain\\IRepository\\IOrderRepository.cs",
+              "RelativeToolTip": "DSI_Assignment.Domain\\IRepository\\IOrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T12:29:07.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Infrastructure\\Repository\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "DSI_Assignment.Infrastructure\\Repository\\OrderRepository.cs",
+              "ToolTip": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Infrastructure\\Repository\\OrderRepository.cs",
+              "RelativeToolTip": "DSI_Assignment.Infrastructure\\Repository\\OrderRepository.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAkwFAAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T04:40:10.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ItemService.cs",
+              "DocumentMoniker": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Application\\Service\\ItemService.cs",
+              "RelativeDocumentMoniker": "DSI_Assignment.Application\\Service\\ItemService.cs",
+              "ToolTip": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Application\\Service\\ItemService.cs",
+              "RelativeToolTip": "DSI_Assignment.Application\\Service\\ItemService.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAzwBsAAAC3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T03:21:18.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PagedResponse.cs",
+              "DocumentMoniker": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Application\\PagedResponse.cs",
+              "RelativeDocumentMoniker": "DSI_Assignment.Application\\PagedResponse.cs",
+              "ToolTip": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Application\\PagedResponse.cs",
+              "RelativeToolTip": "DSI_Assignment.Application\\PagedResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T03:12:22.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Application\\DTO\\OrderDto.cs",
+              "RelativeDocumentMoniker": "DSI_Assignment.Application\\DTO\\OrderDto.cs",
+              "ToolTip": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Application\\DTO\\OrderDto.cs",
+              "RelativeToolTip": "DSI_Assignment.Application\\DTO\\OrderDto.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwBEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T04:38:50.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ItemDto.cs",
+              "DocumentMoniker": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Application\\DTO\\ItemDto.cs",
+              "RelativeDocumentMoniker": "DSI_Assignment.Application\\DTO\\ItemDto.cs",
+              "ToolTip": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Application\\DTO\\ItemDto.cs",
+              "RelativeToolTip": "DSI_Assignment.Application\\DTO\\ItemDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T01:44:13.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "DSI_Assignment.Domain\\Entities\\Order.cs",
+              "ToolTip": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Domain\\Entities\\Order.cs",
+              "RelativeToolTip": "DSI_Assignment.Domain\\Entities\\Order.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T01:44:41.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderDetailService.cs",
+              "DocumentMoniker": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Application\\Service\\OrderDetailService.cs",
+              "RelativeDocumentMoniker": "DSI_Assignment.Application\\Service\\OrderDetailService.cs",
+              "ToolTip": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Application\\Service\\OrderDetailService.cs",
+              "RelativeToolTip": "DSI_Assignment.Application\\Service\\OrderDetailService.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAgwBwAAADGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T04:09:31.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Item.cs",
+              "DocumentMoniker": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Domain\\Entities\\Item.cs",
+              "RelativeDocumentMoniker": "DSI_Assignment.Domain\\Entities\\Item.cs",
+              "ToolTip": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Domain\\Entities\\Item.cs",
+              "RelativeToolTip": "DSI_Assignment.Domain\\Entities\\Item.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T13:00:11.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderDetailDto.cs",
+              "DocumentMoniker": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Application\\DTO\\OrderDetailDto.cs",
+              "RelativeDocumentMoniker": "DSI_Assignment.Application\\DTO\\OrderDetailDto.cs",
+              "ToolTip": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Application\\DTO\\OrderDetailDto.cs",
+              "RelativeToolTip": "DSI_Assignment.Application\\DTO\\OrderDetailDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T13:03:22.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment\\Program.cs",
+              "RelativeDocumentMoniker": "DSI_Assignment\\Program.cs",
+              "ToolTip": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment\\Program.cs",
+              "RelativeToolTip": "DSI_Assignment\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAABwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T03:34:12.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ItemRepository.cs",
+              "DocumentMoniker": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Infrastructure\\Repository\\ItemRepository.cs",
+              "RelativeDocumentMoniker": "DSI_Assignment.Infrastructure\\Repository\\ItemRepository.cs",
+              "ToolTip": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Infrastructure\\Repository\\ItemRepository.cs",
+              "RelativeToolTip": "DSI_Assignment.Infrastructure\\Repository\\ItemRepository.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAxwBkAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T04:20:13.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\hp\\.nuget\\packages\\select.htmltopdf.netcore\\24.1.0\\readme.txt",
+              "ToolTip": "C:\\Users\\hp\\.nuget\\packages\\select.htmltopdf.netcore\\24.1.0\\readme.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-06-11T12:07:11.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SupplierRepository.cs",
+              "DocumentMoniker": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Infrastructure\\Repository\\SupplierRepository.cs",
+              "RelativeDocumentMoniker": "DSI_Assignment.Infrastructure\\Repository\\SupplierRepository.cs",
+              "ToolTip": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Infrastructure\\Repository\\SupplierRepository.cs",
+              "RelativeToolTip": "DSI_Assignment.Infrastructure\\Repository\\SupplierRepository.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T04:21:02.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ISupplierService.cs",
+              "DocumentMoniker": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Application\\IService\\ISupplierService.cs",
+              "RelativeDocumentMoniker": "DSI_Assignment.Application\\IService\\ISupplierService.cs",
+              "ToolTip": "D:\\R\u0026D\\DSI_Assignment_CoreWebAPI\\DSI_Assignment.Application\\IService\\ISupplierService.cs",
+              "RelativeToolTip": "DSI_Assignment.Application\\IService\\ISupplierService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T12:27:21.612Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
